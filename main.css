@@ -1,28 +1,30 @@
 .mainheading {
-	padding:1px 100px;
+	padding:1px 100px; /* gave padding to the specific class to display the content in a organised way*/ 
 }
 .sitetitle{
-    font-family:algerian;
+    font-family:Courier New; /*used diff font family for the heading*/
+}
+.mainheading p{ /* this will give styling to the paragraph tag in the parent class*/
+    font-family:Courier New;
 }
 .navi{
     margin-left: 100px;
-    overflow: hidden;
+    overflow: hidden;/*this will hide any overflow in the content*/
     border-bottom:1px solid rgb(199, 195, 195);
 
 }
 .enter{
     float: left;
     color:black;
-    text-align: center;
     padding-bottom: 1px;
     font-size: 25px;
-    text-decoration: none;
+    text-decoration: none;/*this will omit the decoration for the text*/
     border-bottom: 1px solid black;
 }
 h2{
     color:black;
 }
-h2:hover{
+h2:hover{ /*this will change the color of the headings when you hover on them*/
     background-color: grey;
 }
 
@@ -34,7 +36,7 @@ h2:hover{
     padding: 5px 30px 30px 30px;
     margin-left: 100px;
     margin-top: 30px;
-    border-radius:5px
+    border-radius:5px /*to make the boxes look curved at the edges*/
 }
 .box2{
     float:left;
@@ -59,7 +61,7 @@ h2:hover{
 }
 .box4{
     float:left;
-        width: 290px;
+        width: 290px;/*gave width depending on the requirement*/
         border: 1px solid rgb(199, 195, 195);
         color: rgb(141, 138, 138);
         padding:5px 30px 30px 30px;
