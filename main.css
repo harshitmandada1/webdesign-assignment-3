@@ -1,45 +1,67 @@
 .mainheading {
 	padding:1px 100px;
 }
-nav{
-    margin-bottom:20px;
+.sitetitle{
+    font-family:algerian;
+}
+.navi{
+    margin-left: 100px;
+    overflow: hidden;
+    border-bottom:1px solid rgb(199, 195, 195);
 
 }
-
-.navi h2{
-    padding:0px 100px;
-    border-bottom:1px solid rgb(32, 31, 31);
+.enter{
+    float: left;
+    color:black;
+    text-align: center;
+    padding-bottom: 1px;
+    font-size: 25px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+h2{
+    color:black;
+}
+h2:hover{
+    background-color: grey;
 }
 
 .box1{
     float:left;
     width: 290px;
-    border: 1px solid rgb(32, 31, 31);
+    border: 1px solid rgb(199, 195, 195);
+    color: rgb(141, 138, 138);
     padding: 5px 30px 30px 30px;
     margin-left: 100px;
+    margin-top: 30px;
     border-radius:5px
 }
 .box2{
     float:left;
     width: 290px;
-    border: 1px solid rgb(32, 31, 31);
+    border: 1px solid rgb(199, 195, 195);
+    color: rgb(141, 138, 138);
     padding:5px 30px 30px 30px;
     margin-left: 30px;
+    margin-top: 30px;
     border-radius:5px
 }
 .box3{
         float:left;
         width: 290px;
-        border: 1px solid rgb(32, 31, 31);
+        border: 1px solid rgb(199, 195, 195);
+        color: rgb(141, 138, 138);
         padding:5px 30px 30px 30px;
         margin-left: 30px;
+        margin-top: 30px;
         border-radius:5px
 
 }
 .box4{
     float:left;
         width: 290px;
-        border: 1px solid rgb(32, 31, 31);
+        border: 1px solid rgb(199, 195, 195);
+        color: rgb(141, 138, 138);
         padding:5px 30px 30px 30px;
         margin-left: 100px;
         margin-top: 30px;
@@ -49,7 +71,8 @@ nav{
 .box5{
     float:left;
     width: 290px;
-    border: 1px solid rgb(32, 31, 31);
+    border: 1px solid rgb(199, 195, 195);
+    color: rgb(141, 138, 138);
     padding:5px 30px 30px 30px;
     margin-left: 30px;
     margin-top: 30px;
